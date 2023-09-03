@@ -20,4 +20,4 @@ const store = configureStore({
 
 export default store;
 
-export const server = 'https://skillsphereserver.onrender.com/api/v1';
+export const server = 'https://skillsphere-server.vercel.app/api/v1';

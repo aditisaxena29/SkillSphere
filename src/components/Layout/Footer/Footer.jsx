@@ -1,10 +1,6 @@
 import { Box, Heading, HStack, Stack, VStack } from '@chakra-ui/react';
 import React from 'react';
-import {
-  TiSocialYoutubeCircular,
-  TiSocialInstagramCircular,
-} from 'react-icons/ti';
-import { DiGithub } from 'react-icons/di';
+import {FaLinkedin,FaCode,FaGithub} from 'react-icons/fa';
 const Footer = () => {
   return (
     <Box padding={'4'} bg="blackAlpha.900" minH={'10vh'}>
@@ -25,15 +21,15 @@ const Footer = () => {
           color={'white'}
           fontSize="50"
         >
-          <a href="https://youtube.com/6packprogrammer" target={'blank'}>
-            <TiSocialYoutubeCircular />
-          </a>
-          <a href="https://instagram.com/meabhisingh" target={'blank'}>
-            <TiSocialInstagramCircular />
-          </a>
-          <a href="https://github.com/meabhisingh" target={'blank'}>
-            <DiGithub />
-          </a>
+          <a href="https://www.linkedin.com/in/aditisaxena29" target={"blank"}>
+                    <FaLinkedin />
+                </a>
+                <a href="https://github.com/aditisaxena29" target={"blank"}>
+                    <FaGithub />
+                </a>
+                <a href="https://leetcode.com/aditisaxena29" target={"blank"}>
+                    <FaCode />
+                </a>
         </HStack>
       </Stack>
     </Box>
